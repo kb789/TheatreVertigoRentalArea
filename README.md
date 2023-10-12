@@ -25,7 +25,6 @@ On the Add and Edit Rental Forms, I implemented a "damaged" checkbox that toggle
 ![DamageToggle2](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20215718.png)
 
 I created a History Manager role, and restricted the creating, editing, and deleting of rentals to users with this role.
-namespace TheatreCMS3.Areas.Rent
 
         //Core authentication, called before each action
         protected override bool AuthorizeCore(HttpContextBase httpContext)
