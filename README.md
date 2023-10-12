@@ -6,22 +6,25 @@ I customized the listing of rentals so that rentals that were damaged would disp
 
 ![Rental Histories](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20215516.png)
 
-I implemented sorting functionality, so that the list can be sorted by damaged or undamaged rentals
+I implemented sorting functionality, so that the list can be sorted by damaged or undamaged rentals, or A-z or Z-A
 
-![Sort](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20220342.png)
+![Sort1](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20220342.png)
+![Sort1](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20220421.png)
 
 I also added accordion functionality. If the description of the damage is long, it is shortened by default; if you click on it, you will see the full listing.
 
 ![Accordion](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20215552.png)
 
-I created a hover menu that links to Edit, Details, and Delete options for the renal listings. 
+I created a hover menu that links to Edit, Details, and Delete options for the rental listings. 
 
 ![Hover](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20220455.png)
 
-On the Add and Update Rental Forms, I implemented a "damaged" checkbox that toggles the label of the textbox to either "Damages incurred" or "Notes"
+On the Add and Edit Rental Forms, I implemented a "damaged" checkbox that toggles the label of the textbox to either "Damages incurred" or "Notes"
 
 ![DamageToggle1](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20215644.png)
 ![DamageToggle2](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20215718.png)
+
+
 
 
  
