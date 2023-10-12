@@ -10,9 +10,13 @@ I implemented sorting functionality, so that the list can be sorted by damaged o
 
 ![Sort](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20220342.png)
 
-I also implemented accordion functionality. If the description of the damage is long, it is shortened by default; if you click on it, you will see the full listing.
+I also added accordion functionality. If the description of the damage is long, it is shortened by default; if you click on it, you will see the full listing.
 
 ![Accordion](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20215552.png)
+
+I created a hover menu that links to Edit, Details, and Delete options for the renal listings. 
+
+![Hover](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20220455.png)
 
 
 
