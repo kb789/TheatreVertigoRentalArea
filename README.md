@@ -10,4 +10,4 @@ I customized the listing of rental histories so that rentals that were damaged w
 
 I implemented sorting functionality, so that the list can be sorted by damaged or undamaged rentals
 
-![Rental Histories](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20220342.png)
+![Rental Histories2](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20220342.png)
