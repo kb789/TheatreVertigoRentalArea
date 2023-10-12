@@ -8,6 +8,9 @@ I customized the listing of rentals so that rentals that were damaged would disp
 
 I implemented sorting functionality, so that the list can be sorted by damaged or undamaged rentals
 
-![Rental Histories2](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20220342.png)
+![Sort](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20220342.png)
 
 I also implemented accordion functionality. If the description of the damage is long, it is shortened by default; if you click on it, you will see the full listing.
+
+![Accordion](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20215552.png)
+
