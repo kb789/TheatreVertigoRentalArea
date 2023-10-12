@@ -26,6 +26,11 @@ On the Add and Edit Rental Forms, I implemented a "damaged" checkbox that toggle
 
 I created a History Manager role, and restricted the creating, editing, and deleting of rentals to users with this role.
 
+    @Html.Hidden("EmailOrUsername", "TestUser")
+    @Html.Hidden("Password", "somePassword")
+    <div id="mybutton">
+        <a class="feedback" href="javascript:document.getElementById('loginForm').submit()">Log in as History Manager</a>
+
 
 I seeded the database with a test user that has the history manager role, and then created a History Manager button for development purposes that, when clicked, would automatically log the person in as this user.
 
