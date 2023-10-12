@@ -25,6 +25,36 @@ On the Add and Edit Rental Forms, I implemented a "damaged" checkbox that toggle
 ![DamageToggle2](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20215718.png)
 
 I created a History Manager role, and restricted the creating, editing, and deleting of rentals to users with this role.
+namespace TheatreCMS3.Areas.Rent
+
+        //Core authentication, called before each action
+        protected override bool AuthorizeCore(HttpContextBase httpContext)
+        {
+            bool authorize = false;
+            if(HttpContext.Current.User.IsInRole("HistoryManager"))
+            {
+                authorize = true;
+            }
+            return authorize;
+        }
+        protected override void HandleUnauthorizedRequest(AuthorizationContext filterContext)
+        {
+            //User isn't logged in
+            if (!filterContext.HttpContext.User.Identity.IsAuthenticated)
+            {
+                filterContext.Result = new RedirectToRouteResult(
+                        new RouteValueDictionary(new { controller = "RentalHistories", action = "AccessDenied" })
+                );
+
+
+            }
+      
+        }
+
+
+       
+    }
+}
 
 I seeded the database with a test user that has the history manager role, and then created a History Manager button for development purposes that, when clicked, would automatically log the person in as this user.
 
