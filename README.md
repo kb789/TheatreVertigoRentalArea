@@ -14,3 +14,7 @@ I also implemented accordion functionality. If the description of the damage is 
 
 ![Accordion](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20215552.png)
 
+
+
+
+ 
