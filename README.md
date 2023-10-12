@@ -18,7 +18,10 @@ I created a hover menu that links to Edit, Details, and Delete options for the r
 
 ![Hover](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20220455.png)
 
+On the Add and Update Rental Forms, I implemented a "damaged" checkbox that toggles the label of the textbox to either "Damages incurred" or "Notes"
 
+![DamageToggle1](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20215644.png)
+![DamageToggle2](https://github.com/kb789/TheatreVertigoRentalArea/blob/master/images/Screenshot%202023-10-11%20215718.png)
 
 
  
